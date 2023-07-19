@@ -1,0 +1,49 @@
+
+.fork{
+  background-color: lightgrey;
+  border: none;
+  border-color: black;
+  border-radius: 15px;
+  width: 310px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transform: translateY(-30px);
+}
+
+.form-group{
+  font-size:20px;
+  display: flex;
+  flex-direction: column;
+  width:1rem;   
+  color: black;
+  background-color: lightgrey;
+  font-style: italic; 
+}
+
+.form-control{
+  border: 3px solid;
+  border-color: black;
+  border-radius: 15px;
+  width: 18rem;
+  height: 32px;
+  background-color: lightgray;
+}
+
+.button{
+  background-color: black;
+  color: ghostwhite;
+}
+
+.button:hover {
+  background-color:coral;
+}
+
+.registration{
+  transform: translateX(36rem);
+}
+
+.head{
+  transform: translateX(29rem);
+  color: black;
+  transform: translateX(39rem);
+} 
+
