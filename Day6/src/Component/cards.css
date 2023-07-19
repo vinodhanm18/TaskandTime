@@ -1,0 +1,10 @@
+.head{
+    position: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.card1{
+    transform: translateY(-1rem);
+    margin-left: -500px;
+}
