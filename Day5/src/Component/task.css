@@ -1,0 +1,25 @@
+.head{
+    position: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateX(550px);
+}
+
+
+.card1{
+    transform: translateY(-1rem);
+    margin-left: -500px;
+}
+
+.card2{
+    margin-left: 190px;
+    transform: translateY(-13.7rem);
+}
+.card3{
+    transform: translateY(-210px);
+    margin-left: -500px;
+}
+.card4{
+    margin-top: -410px;
+    transform: translateX(445px);
+    margin-left: -250px;
+}
