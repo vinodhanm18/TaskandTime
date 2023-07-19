@@ -1,0 +1,72 @@
+body{
+    background-image: url('C:\Users\ASUS\Desktop\appdev\appdev\src\Component\cover.jpg');
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.leftnav {
+    /* background-color: black; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-23.5rem);
+    
+    
+  }
+.log{
+  background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(15.5rem);
+}
+  
+  .leftnav a {
+    float: left;
+    color: #f2f2f2;
+    background-color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+.log a{
+  float: left;
+  color: #ff0000;
+  background-color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+  
+  .leftnav a:hover {
+    background-color: lightpink;
+    color: rgb(0, 0, 0);
+  }
+  .log a:hover{
+    background-color: lightpink;
+    color: aliceblue;
+  }
+  
+  
+  .leftnav a.active {
+    background-color: violet;
+    color: rgb(254, 254, 254);
+  }
+  .field{
+    transform: translateX(38rem);
+    font-size: x-large;
+    border-radius: 7px;
+    border-color: grey;
+    color:#000000;
+    border-style:groove;
+    border-width: 3px;
+    margin-top: -500px;
+  } 
+  .button{
+    transform: translateY(4rem);
+    width: 100%;
+    margin-left: 35px;
+    color: #f2f2f2;
+  }
